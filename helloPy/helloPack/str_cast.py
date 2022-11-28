@@ -7,5 +7,9 @@ Created on 2022/11/04
 '''
 
 apple = 350;
-msg = "リンゴは" + str(apple) + "円です。";
+msg = ("リンゴは" + str(apple) + "円です。\n") * 3;
+
+#msg = "リンゴは" + str(apple) + "円です。\n" * 3;
+#↑これだと円ですのところだけ3回表示される。
+
 print(msg);
